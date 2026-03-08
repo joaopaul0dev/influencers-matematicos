@@ -1,0 +1,200 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 360px;
+    height: 640px;
+    background: linear-gradient(145deg, #111, #222);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(255, 45, 85, 0.3), 0 0 50px rgba(255, 45, 85, 0.1);
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+#intro h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 45, 85, 0.5);
+}
+
+#intro p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 5px;
+    border: none;
+    background: linear-gradient(45deg, #FF2D55, #ff6b9d);
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 45, 85, 0.3);
+    font-size: 14px;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #e60039, #ff4d7a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 45, 85, 0.4);
+}
+
+.buttons {
+    display:block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#question, #options, #timer, #likes, #message {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#likes {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 16px;
+    border: none;
+    background: linear-gradient(45deg, #FF2D55, #ff6b9d);
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 45, 85, 0.3);
+    font-size: 12px;
+}
+
+#backButton:hover {
+    background: linear-gradient(45deg, #e60039, #ff4d7a);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(255, 45, 85, 0.4);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.credits-link {
+    padding: 12px 24px;
+    margin-top: 15px;
+    border: none;
+    background: linear-gradient(45deg, #FF2D55, #ff6b9d);
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 45, 85, 0.3);
+    font-size: 14px;
+}
+
+.credits-link:hover {
+    background: linear-gradient(45deg, #e60039, #ff4d7a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 45, 85, 0.4);
+}
+
+.menu {
+    width: 360px;
+    height: 640px;
+    background: linear-gradient(145deg, #111, #222);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(255, 45, 85, 0.3), 0 0 50px rgba(255, 45, 85, 0.1);
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.menu-title {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 45, 85, 0.5);
+}
+
+.creditos {
+    text-align: center;
+}
+
+.autor {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.creditos-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.back-link {
+    padding: 12px 24px;
+    margin-top: 15px;
+    border: none;
+    background: linear-gradient(45deg, #FF2D55, #ff6b9d);
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 45, 85, 0.3);
+    font-size: 14px;
+}
+
+.back-link:hover {
+    background: linear-gradient(45deg, #e60039, #ff4d7a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 45, 85, 0.4);
+}

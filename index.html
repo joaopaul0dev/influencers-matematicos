@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Influencers da Matemática</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="game">
+            <div id="intro">
+                <h1>Influencers da Matemática 🚀</h1>
+                <p>Ganhe milhões de seguidores resolvendo porcentagens!</p>
+                <div class="buttons">
+                    <button onclick="startGame('easy')">Nivel Fácil</button>
+                    <button onclick="startGame('medium')">Nivel Intermediário</button>
+                    <button onclick="startGame('hard')">Mestre do Universo</button>
+                </div>
+            </div>
+            <div id="playArea" style="display:none; width:100%;">
+                <button id="backButton" onclick="backToHome()">← Voltar</button>
+                <div id="timer"></div>
+                <div id="likes">Likes: 0</div>
+                <div id="question"></div>
+                <div id="options"></div>
+                <div id="message"></div>
+            </div>
+        </div>
+        <a href="credits.html" class="credits-link">Créditos</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
